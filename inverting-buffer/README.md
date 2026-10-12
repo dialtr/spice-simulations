@@ -39,14 +39,16 @@ click the **Simulation Model** button.  That should bring up the
 **Simulation Model Editor** dialog box. The assignments I used for the
 TI model were:
 
-Symbol Pin 1 => N.C.
-Symbol Pin 2 => 2 (Inverting input)
-Symbol Pin 3 => 1 (Non-inverting input)
-Symbol Pin 4 => 4 (Negative power supply))
-Symbol Pin 5 => N.C.
-Symbol Pin 6 => 5 (Output)
-Symbol Pin 7 => 3 (Positive power supply)
-Symbol Pin 8 => N.C.
+| Symbol Pin | Model Pin | Comment |
+| --- | --- | --- |
+| 1 | N.C. | - |
+| 2 | 2 | Inverting input |
+| 3 | 1 | Non-inverting input |
+| 4 | 4 | Negative power supply |
+| 5 | N.C. | - |
+| 6 | 5 | Output |
+| 7 | 3 | Positive power supply |
+| 8 | N.C. | - |
 
 5. My schematic has two test points TP1, TP2. These are both excluded
 from the simulation. To do this, double-click on the symbol and click
