@@ -17,10 +17,9 @@ repo, under the part-models directory.) I used the NE5524TI_SN model.
 my circuit. Off to the left of the schematic, you'll see two DC power 
 sources: V1 and V2. Note that they are both 17v, and they are tied together
 to a 0v ground reference. These symbols came from the Simulation_SPICE
-symbol category. 
-
-The +17V rail is tied to a + power pin (+17v) and the -17v rail is tied
-to a - power pin.  The actual voltages are dictated by the value on V1,V2.
+symbol category. The +17V rail is tied to a + power pin (+17v) and the
+-17v rail is tied to a - power pin.  The actual voltages are dictated by
+the value on V1,V2.
 
 3. V3 is the source of the signal for the simulation.  You will want to 
 choose this from the Simulation_SPICE category of symbols as well. Edit the
